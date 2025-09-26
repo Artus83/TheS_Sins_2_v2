@@ -5,15 +5,9 @@
     "fleet_factory_rally_hyperspace_speed_between_stars": 465000.0,
     "fleet_factory_rally_hyperspace_charge_time": 8.0,
     "pickable_players": [
-        "trader_loyalist",
-        "trader_rebel",
-        "advent_rebel",
-        "advent_loyalist",
-        "vasari_loyalist",
-        "vasari_rebel"
-    ],
-    "dlc_only_pickable_players": [
-        "dlc_trader_loyalist"
+        "trader",
+        "advent",
+        "vasari"
     ],
     "npc_players_with_reputation": [
         "aluxian_resurgence_npc",
