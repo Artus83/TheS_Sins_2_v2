@@ -469,12 +469,16 @@
         "trader_carrier_capital_ship",
         "trader_siege_capital_ship",
         "trader_loyalist_titan",
-        "dlc2_trader_loyalist_super_capital_ship"
-    ],
+        "dlc2_trader_loyalist_super_capital_ship",
+        "trader_rebel_titan",
+        "dlc2_trader_rebel_super_capital_ship"
+],
     "faction_buildable_units": [
         "trader_loyalist_titan",
-        "dlc2_trader_loyalist_super_capital_ship"
-    ],
+        "dlc2_trader_loyalist_super_capital_ship",
+        "trader_rebel_titan",
+        "dlc2_trader_rebel_super_capital_ship"
+],
     "buildable_strikecraft": [
         "trader_interceptor_strikecraft",
         "trader_bomber_strikecraft"
@@ -516,7 +520,7 @@
         "trader_hangar_defense_structure",
         "trader_starbase",
         "trader_orbital_cannon_structure"
-    ],
+],
     "ability_created_units": [
         "trader_missile_battery_frigate",
         "trader_starbase"
@@ -1065,8 +1069,27 @@
             "dlc2_trader_unlock_loyalist_super_capital_ship",
             "dlc2_trader_unlock_faction_victory_item",
             "trader_unlock_titan_factory",
-            "trader_unlock_torpedo_cruiser_heavy_torpedo"
-        ],
+            "trader_unlock_torpedo_cruiser_heavy_torpedo",
+            "trader_culture_insurgency",
+            "trader_economic_exotic_build_rate",
+            "trader_enemy_culture_suppression",
+            "trader_high_order_explosives",
+            "trader_orbital_cannon_structure_range",
+            "trader_pirate_raid_supply",
+            "trader_planet_pillaging",
+            "trader_rebel_pirate_cease_fire",
+            "trader_rebel_pirate_share_vision",
+            "trader_savage_thrill",
+            "trader_unlock_human_doctrine_center_unit_item",
+            "trader_unlock_pirate_mercenary_base_unit_item",
+            "trader_unlock_rebel_titan",
+            "trader_unlock_rebel_titan_hangar_unit_item",
+            "trader_unlock_rebel_titan_hull_plating_0_unit_item",
+            "trader_unlock_rebel_titan_hull_plating_1_unit_item",
+            "trader_unlock_rebel_titan_missile_weapon_unit_item",
+            "trader_unlock_rebel_titan_rail_gun_weapon_unit_item",
+            "dlc2_trader_unlock_rebel_super_capital_ship"
+],
         "faction_research_subjects": [
             "trader_unlock_garrison_recruitment_center",
             "trader_garrison_max_supply",
@@ -1078,8 +1101,21 @@
             "trader_structure_hull",
             "trader_war_measures_act",
             "trader_counter_deployment",
-            "trader_unlock_home_guard_outpost_unit_item"
-        ]
+            "trader_unlock_home_guard_outpost_unit_item",
+            "trader_enemy_culture_suppression",
+            "trader_savage_thrill",
+            "trader_planet_pillaging",
+            "trader_pirate_raid_supply",
+            "trader_high_order_explosives",
+            "trader_culture_insurgency",
+            "trader_rebel_pirate_cease_fire",
+            "trader_rebel_pirate_share_vision",
+            "trader_economic_exotic_build_rate",
+            "trader_unlock_rebel_titan_rail_gun_weapon_unit_item",
+            "trader_unlock_human_doctrine_center_unit_item",
+            "trader_unlock_pirate_mercenary_base_unit_item",
+            "trader_orbital_cannon_structure_range"
+]
     },
     "missing_ship_component_shop_build_time_scalar": 10.0,
     "ship_components": [
@@ -1129,11 +1165,22 @@
         "dlc_ancient_starbase_unlock_heavy_weapon",
         "dlc_ancient_starbase_unlock_light_weapon",
         "dlc_ancient_starbase_unlock_missile_weapon",
-		"dlc2_trader_loyalist_super_capital_ship_unlock_missile_weapon",
-		"dlc2_trader_loyalist_super_capital_ship_factory_supplies",
-		"dlc2_trader_loyalist_super_capital_ship_antimatter_reserves",
-        "dlc2_trader_faction_victory"
-    ],
+        "dlc2_trader_loyalist_super_capital_ship_unlock_missile_weapon",
+        "dlc2_trader_loyalist_super_capital_ship_factory_supplies",
+        "dlc2_trader_loyalist_super_capital_ship_antimatter_reserves",
+        "dlc2_trader_faction_victory",
+        "trader_rebel_titan_hull_plating_0",
+        "trader_rebel_titan_hull_plating_1",
+        "trader_rebel_titan_unlock_missile_weapon",
+        "trader_rebel_titan_unlock_rail_gun_weapon",
+        "trader_rebel_titan_hangar",
+        "dlc2_trader_rebel_super_capital_ship_modular_hangar",
+        "dlc2_trader_rebel_super_capital_ship_modular_missile",
+        "dlc2_trader_rebel_super_capital_ship_modular_railgun",
+        "dlc2_trader_rebel_super_capital_ship_turret_beam",
+        "dlc2_trader_rebel_super_capital_ship_turret_gauss",
+        "dlc2_trader_rebel_super_capital_ship_turret_missile"
+],
     "ship_component_build_groups": [
     {
         "id": "consumable",
@@ -1188,8 +1235,10 @@
         "trader_souvenir_emporium",
         "trader_xeno_tech_lab",
         "trader_surface_irradiated_planet_research_lab",
-        "trader_fissile_plant"
-    ],
+        "trader_fissile_plant",
+        "trader_pirate_mercenary_base",
+        "trader_rebel_human_doctrine_center"
+],
     "planet_component_build_groups": [
     {
         "id": "economy",
@@ -5134,8 +5183,8 @@
         "hud_skin_name": "trader_hud_skin",
         "race_name": "player_race_name.trader",
         "race_description": "player_race_description.trader",
-        "faction_name": "player_faction_name.trader_loyalist",
-        "faction_description": "player_faction_description.trader_loyalist",
+        "faction_name": "player_faction_name.trader",
+        "faction_description": "player_faction_description.trader",
         "faction_icon": "trader_loyalist_faction_icon",
         "load_screen_character_brush": "trader_load_screen_character",
         "player_slot_plate": "trader_loyalist_player_slot_plate",
