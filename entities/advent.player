@@ -492,12 +492,16 @@
         "advent_battle_psionic_capital_ship",
         "advent_planet_psionic_capital_ship",
         "advent_loyalist_titan",
-        "dlc2_advent_loyalist_super_capital_ship"
-    ],
+        "dlc2_advent_loyalist_super_capital_ship",
+        "advent_rebel_titan",
+        "dlc2_advent_rebel_super_capital_ship"
+],
     "faction_buildable_units": [
         "advent_loyalist_titan",
-        "dlc2_advent_loyalist_super_capital_ship"
-    ],
+        "dlc2_advent_loyalist_super_capital_ship",
+        "advent_rebel_titan",
+        "dlc2_advent_rebel_super_capital_ship"
+],
     "buildable_strikecraft": [
         "advent_interceptor_strikecraft",
         "advent_bomber_strikecraft"
@@ -538,8 +542,9 @@
         "advent_phase_jump_inhibitor_structure",
         "advent_hangar_defense_structure",
         "advent_starbase",
-        "advent_deliverance_engine_structure"
-    ],
+        "advent_deliverance_engine_structure",
+        "advent_rebel_titan_factory_structure"
+],
     "ability_created_units": [
         "advent_starbase"
     ],
@@ -1058,8 +1063,23 @@
             "advent_upgrade_tithe_collector_unit_item_1",
             "dlc2_advent_unlock_loyalist_super_capital_ship",
             "dlc2_advent_unlock_faction_victory_item",
-            "advent_unlock_titan_factory"
-        ],
+            "advent_unlock_titan_factory",
+            "advent_rebel_loot_collection",
+            "advent_soul_reclamation",
+            "advent_unlock_culture_improve_regeneration",
+            "advent_unlock_deliverance_engine_structure_rebel_ability",
+            "advent_unlock_essence_reservoir_unit_item",
+            "advent_unlock_prescience_filter_unit_item",
+            "advent_unlock_rebel_titan",
+            "advent_unlock_rebel_titan_hull_plating_unit_item",
+            "advent_unlock_rebel_titan_missile_weapon_unit_item",
+            "advent_unlock_rebel_titan_shield_booster_unit_item",
+            "advent_unlock_temple_of_purification_unit_item",
+            "advent_unlock_temple_of_resurrection_unit_item",
+            "advent_upgrade_deliverance_engine_structure_rebel_ability",
+            "advent_upgrade_temple_of_purification_unit_item",
+            "dlc2_advent_unlock_rebel_super_capital_ship"
+],
         "faction_research_subjects": [
             "advent_unlock_temple_of_pilgrimage_unit_item",
             "advent_unlock_temple_of_assimilation_unit_item",
@@ -1067,8 +1087,15 @@
             "advent_loyalist_acclimatization_of_will",
             "advent_loyalist_global_unity",
             "advent_loyalist_clarity_of_purpose",
-            "advent_unlock_culture_improve_weapon_damage"
-        ]
+            "advent_unlock_culture_improve_weapon_damage",
+            "advent_unlock_temple_of_purification_unit_item",
+            "advent_upgrade_temple_of_purification_unit_item",
+            "advent_unlock_temple_of_resurrection_unit_item",
+            "advent_rebel_loot_collection",
+            "advent_soul_reclamation",
+            "advent_unlock_essence_reservoir_unit_item",
+            "advent_unlock_culture_improve_regeneration"
+]
     },
     "missing_ship_component_shop_build_time_scalar": 10.0,
     "ship_components": [
@@ -1111,8 +1138,15 @@
         "dlc_ancient_starbase_unlock_heavy_weapon",
         "dlc_ancient_starbase_unlock_light_weapon",
         "dlc_ancient_starbase_unlock_missile_weapon",
-        "dlc2_advent_faction_victory"
-    ],
+        "dlc2_advent_faction_victory",
+        "advent_essence_reservoir",
+        "advent_rebel_titan_hull_plating",
+        "advent_rebel_titan_shield_booster",
+        "advent_rebel_titan_unlock_missile_weapon",
+        "dlc2_advent_rebel_super_capital_ship_malefic_locus",
+        "dlc2_advent_rebel_super_capital_ship_mind_locus",
+        "dlc2_advent_rebel_super_capital_ship_savior_locus"
+],
     "ship_component_build_groups": [
     {
         "id": "consumable",
@@ -1162,8 +1196,11 @@
         "advent_pelagic_interface_relay",
         "advent_radiation_shield_dome",
         "advent_epitaph_of_the_lost",
-        "advent_starlight_augury"
-    ],
+        "advent_starlight_augury",
+        "advent_temple_of_purification",
+        "advent_temple_of_resurrection",
+        "advent_prescience_filter"
+],
     "faction_planet_components": [
         "advent_temple_of_assimilation"
     ],
@@ -4919,8 +4956,8 @@
         "hud_skin_name": "advent_hud_skin",
         "race_name": "player_race_name.advent",
         "race_description": "player_race_description.advent",
-        "faction_name": "player_faction_name.advent_loyalist",
-        "faction_description": "player_faction_description.advent_loyalist",
+        "faction_name": "player_faction_name.advent",
+        "faction_description": "player_faction_description.advent",
         "faction_icon": "advent_loyalist_faction_icon",
         "load_screen_character_brush": "advent_load_screen_character",
         "player_slot_plate": "advent_loyalist_player_slot_plate",
