@@ -542,8 +542,7 @@
         "advent_phase_jump_inhibitor_structure",
         "advent_hangar_defense_structure",
         "advent_starbase",
-        "advent_deliverance_engine_structure",
-        "advent_rebel_titan_factory_structure"
+        "advent_deliverance_engine_structure"
 ],
     "ability_created_units": [
         "advent_starbase"
