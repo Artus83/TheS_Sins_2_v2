@@ -438,6 +438,13 @@
         },
         {
             "unit": "advent_capital_ship_factory_structure"
+        },
+        {
+            "unit": "advent_starbase",
+            "count": [
+                1,
+                1
+            ]
         }]
     }],
     "fleet": "advent_fleet",

@@ -374,6 +374,13 @@
         {
             "unit": "vasari_scout_corvette",
             "count": [2, 2]
+        },
+        {
+            "unit": "vasari_starbase",
+            "count": [
+                1,
+                1
+            ]
         }]
     },
     "starting_units_in_hyperspace_duration": 6.0,

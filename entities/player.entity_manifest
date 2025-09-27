@@ -1,7 +1,17 @@
 {
     "ids": [
-        "trader",
         "advent",
-        "vasari"
+        "guardian_npc",
+        "militia",
+        "pirate_npc",
+        "trader",
+        "vasari",
+        "pranast_united_npc",
+        "viturak_cabal_npc",
+        "jiskun_force_npc",
+        "aluxian_resurgence_npc",
+        "cot_aluxian_resurgence_npc",
+        "dlc_trader_loyalist",
+        "eivonns_frigates_npc"
     ]
 }
