@@ -38,11 +38,19 @@
         "required_units": [
         {
             "unit": "trader_autocannon_defense_structure",
-            "count": [9, 15]
+            "count": [18, 30]
         },
         {
             "unit": "trader_gauss_defense_structure",
-            "count": [7, 11]
+            "count": [14, 22]
+        },
+        {
+            "unit": "trader_starbase",
+            "count": [3,3]
+        },
+        {
+            "unit": "trader_loyalist_titan_factory_structure",
+            "count": [1,1]
         }]
     },
     "starting_units_in_formations": [
@@ -132,6 +140,10 @@
         {
             "unit": "pirate_siege_frigate",
             "count": [8, 10]
+        },
+        {
+            "unit": "trader_siege_capital_ship",
+            "count": [2, 2]
         }]
     }],
     "buildable_strikecraft": [
@@ -161,6 +173,7 @@
         "trader_gauss_defense_structure",
         "trader_hangar_defense_structure",
         "trader_phase_jump_inhibitor_structure",
+        "trader_rebel_titan_factory_structure",
         "trader_starbase"
     ],
     "npc":
