@@ -377,10 +377,7 @@
         },
         {
             "unit": "vasari_starbase",
-            "count": [
-                1,
-                1
-            ]
+            "count": [1, 1]
         }]
     },
     "starting_units_in_hyperspace_duration": 6.0,

@@ -416,11 +416,8 @@
             "unit": "trader_retrofit_bay_structure"
         },
         {
-            "unit": "trader_starbase",
-            "count": [
-                1,
-                1
-            ]
+            "unit": "dlc_ancient_starbase",
+            "count": [1, 1]
         }]
     }],
     "fleet": "trader_fleet",
