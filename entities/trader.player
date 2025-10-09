@@ -35,7 +35,8 @@
             "mining": 1
         },
         "starting_planet_components": [
-            "trader_loyalist_homeworld_home_guard_command"
+            "trader_loyalist_homeworld_home_guard_command",
+            "trader_rebel_homeworld_human_doctrine_center"
         ],
         "establish_price":
         {

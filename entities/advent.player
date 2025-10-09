@@ -62,7 +62,8 @@
             "focus": 2
         },
         "starting_planet_components": [
-            "advent_loyalist_homeworld_temple_of_pilgrimage"
+            "advent_loyalist_homeworld_temple_of_pilgrimage",
+            "advent_rebel_homeworld_temple_of_purification"
         ],
         "establish_price":
         {

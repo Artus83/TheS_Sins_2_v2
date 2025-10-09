@@ -69,7 +69,7 @@
                         "weight": 2.0
                     }]
                 },
-                "supply_threshold": 150
+                "supply_threshold": 250
             },
             {
                 "spawned_units":

@@ -341,5 +341,10 @@
                 {}
             }]
         }
-    }
+    },
+        "ship_components": [
+        "trader_starbase_unlock_beam_weapon",
+        "trader_starbase_unlock_torpedo_weapon",
+        "trader_rebel_titan_unlock_missile_weapon"
+]
 }
