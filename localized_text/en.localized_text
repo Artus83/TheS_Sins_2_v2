@@ -1,4 +1,17 @@
 {
+  "player_faction_name.advent_loyalist": "Deprecated",
+  "player_faction_name.advent_rebel": "Deprecated",
+  "player_faction_name.dlc_trader_loyalist": "Deprecated",
+  "player_faction_name.trader_loyalist": "Deprecated",
+  "player_faction_name.trader_rebel": "Deprecated",
+  "player_faction_name.vasari_loyalist": "Deprecated",
+  "player_faction_name.vasari_rebel": "Deprecated",
+  "player_faction_description.advent_loyalist": "Do not use!",
+  "player_faction_description.advent_rebel": "Do not use!",
+  "player_faction_description.trader_loyalist": "Do not use!",
+  "player_faction_description.trader_rebel": "Do not use!",
+  "player_faction_description.vasari_loyalist": "Do not use!",
+  "player_faction_description.vasari_rebel": "Do not use!",
   "player_faction_description.advent": "The rebellion was crushed.",
   "player_faction_description.trader": "The rebellion was crushed.",
   "player_faction_description.vasari": "The rebellion was crushed.",
@@ -6,5 +19,7 @@
   "player_faction_name.trader": "TEC",
   "player_faction_name.vasari": "Vasari",
   "scenario.thes_ente.name": "TheS Ente 2.0",
-  "scenario.thes_ente.description": "test"
+  "scenario.thes_ente.description": "Working on it.",
+  "scenario.thes_test.name": "Test",
+  "scenario.thes_test.description": "Do not load!"
 }

@@ -1,6 +1,7 @@
 {
     "scenarios": [        
-        "thes_ente"
+        "thes_ente",
+        "thes_test"
     ],
     "fake_server_scenarios": [],
     "dlc_scenarios":[],
