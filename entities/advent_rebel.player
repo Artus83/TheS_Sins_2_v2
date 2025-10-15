@@ -5225,6 +5225,17 @@
                     ["advent_loyalist_clarity_of_purpose"]
                 ]
             }]
+        },
+        {
+            "modifier_type": "shield_point_restore_scalar_after_damage_taken",
+            "value_behavior": "additive",
+            "values": [
+            {
+                "value": 0.33,
+                "prerequisites": [
+                    ["advent_unlock_culture_improve_regeneration"]
+                ]
+            }]
         }],
         "friendly_weapon_modifiers": [
         {

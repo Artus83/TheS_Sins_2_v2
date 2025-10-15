@@ -3930,6 +3930,19 @@
         {
             "propagation_rate_scalar": -2.0
         }],
+        "friendly_unit_modifiers": [
+        {
+            "tag": "structure",
+            "modifier_type": "damage_taken",
+            "value_behavior": "scalar",
+            "values": [
+            {
+                "value": -0.48,
+                "prerequisites": [
+                    ["vasari_culture_defense_boost"]
+                ]
+            }]
+        }],
         "friendly_planet_modifiers": [
         {
             "modifier_type": "mining_track_metal_income_rate_per_population",
@@ -3962,6 +3975,45 @@
                 "value": 0.36,
                 "prerequisites": [
                     ["vasari_culture_mining_extraction_rate_bonus"]
+                ]
+            }]
+        },
+        {
+            "modifier_type": "bombing_damage_taken",
+            "value_behavior": "scalar",
+            "values": [
+            {
+                "value": -0.48,
+                "prerequisites": [
+                    ["vasari_culture_defense_boost"]
+                ]
+            }]
+        },
+        {
+            "modifier_type": "factory_unit_build_time",
+            "value_behavior": "scalar",
+            "values": [
+            {
+                "value": -0.06,
+                "prerequisites": [
+                    ["vasari_unlock_culture_center"]
+                ]
+            },
+            {
+                "value": -0.24,
+                "prerequisites": [
+                    ["vasari_culture_factory_unit_build_time_bonus"]
+                ]
+            }]
+        },
+        {
+            "modifier_type": "bombing_population_damage_taken",
+            "value_behavior": "scalar",
+            "values": [
+            {
+                "value": -0.48,
+                "prerequisites": [
+                    ["vasari_culture_planet_heal"]
                 ]
             }]
         }],
