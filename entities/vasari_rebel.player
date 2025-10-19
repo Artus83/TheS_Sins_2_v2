@@ -4372,8 +4372,9 @@
     }],
     "default_starting_assets":
     {
-        "metal": 4800,
-        "crystal": 6000
+        "credits": 994500,
+        "metal": 994800,
+        "crystal": 996000
     },
     "default_starting_exotics": [
     {

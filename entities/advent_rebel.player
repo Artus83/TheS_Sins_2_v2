@@ -5181,9 +5181,9 @@
     }],
     "default_starting_assets":
     {
-        "credits": 4500,
-        "metal": 1050,
-        "crystal": 750
+        "credits": 994500,
+        "metal": 991050,
+        "crystal": 999750
     },
     "asteroid_extraction_rates":
     {
