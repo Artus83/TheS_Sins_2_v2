@@ -4911,7 +4911,7 @@
     {
         "base_max_mana": 100.0,
         "base_mana_restore_rate": 0.1,
-        "unity_agent": "advent_unity_agent_loyalist"
+        "unity_agent": "advent_unity_agent_rebel"
     },
     "max_supply":
     {
